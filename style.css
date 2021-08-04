@@ -3,7 +3,17 @@
 }
 
 #image1{
-    height: 600px;
 
-    width: 600px;
+    max-width: 523px; 
+}
+#bloc{
+    max-width: 525px;
+}
+#logo{
+    height: 60px;
+
+    width: 50px;
+}
+.Mini{
+    max-width: 360px;
 }

@@ -1,218 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <title>Figma</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <title>Figma</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
-            <a href="index.html"><img id="logo" src="medias/logoo.png" alt="logo"/></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Products
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Figjam [Beta]</a></li>
-                      <li><a class="dropdown-item" href="#">Design</a></li>
-                      <li><a class="dropdown-item" href="#">Prototyping</a></li>
-                      <li><a class="dropdown-item" href="#">Design systems</a></li>
-                      <li><a class="dropdown-item" href="#">Downloads</a></li>
+ <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <img src="medias/logoo.png" alt="logo Figma">
+            <div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong>Products</strong>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">FigJam</a></li>
+                                <li><a class="dropdown-item" href="#">Design</a></li>
+                                <li><a class="dropdown-item" href="#">Prototyping</a></li>
+                                <li><a class="dropdown-item" href="#">Design systems</a></li>
+                                <li><a class="dropdown-item" href="#">Downloads</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong>Enterprise</strong>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Overvieuw</a></li>
+                                <li><a class="dropdown-item" href="#">Customers</a></li>
+                                <li><a class="dropdown-item" href="#">Contact Sales</a></li>
+                                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Pricing</a></strong>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong>Community</strong>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Files and templates</a></li>
+                                <li><a class="dropdown-item" href="#">Plugins</a></li>
+                                <li><a class="dropdown-item" href="#">Events and livestreams</a></li>
+                                <li><a class="dropdown-item" href="#">Best practives</a></li>
+                                <li><a class="dropdown-item" href="#">Education program</a></li>
+                                <li><a class="dropdown-item" href="#">Use groups</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong>Company</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                                <li><a class="dropdown-item" href="#">Our story</a></li>
+                                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Log in</a></strong>
+                        </li><br>
+
+                        <li><button type="button" class="btn btn-dark">Sign up</button></li>
+
                     </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Entreprise
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Overview</a></li>
-                      <li><a class="dropdown-item" href="#">Customers</a></li>
-                      <li><a class="dropdown-item" href="#">Contacts Sales</a></li>
-                    </ul>
-                  </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Community
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Files and templates</a></li>
-                  <li><a class="dropdown-item" href="#">Plugins</a></li>
-                  <li><a class="dropdown-item" href="#">Events and livestreams</a></li>
-                  <li><a class="dropdown-item" href="#">Best pratices</a></li>
-                  <li><a class="dropdown-item" href="#">Education program</a></li>
-                  <li><a class="dropdown-item" href="#">User groups</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Company
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Blog</a></li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
-                  <li><a class="dropdown-item" href="#">Our story</a></li>
-                  <li><a class="dropdown-item" href="#">Help Center</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="Bloc1">
-      <div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row justify-content-center" id="Bloc1">
+      <div class="col-12 col-md-6 align-self-center">
         <h2>Prototyping features</h2>
-      <p>Prototype while <br>
-         you design, and <br>
-          vice versa</p>
-      <p>Bring your ideas to life in animated prototypes. Test<br> 
-        earlier and more often. Create a better <br>
-         blueprint for development.</p>
+        <p><strong> Prototype while 
+            you design, and
+            vice versa</strong></p>
+        <p>Bring your ideas to life in animated prototypes.
+          Test earlier and more often. Create a better
+          blueprint for development.</p>
       </div>
-      
-      <div>
-        <img src="medias/image_1.png" alt="image1" id="image1">
-      </div>
-         
-      </div>
+        <img src="medias/image_1.png" alt="image1" class="col-12 col-md-6" id="image1">
 
-         <h2>Create prototypes that feel like the real experience</h2>
-         <p>Turn your static design files into an interactive experience—no coding required.</p>
-         <ul>
-            <li>Intuitive build: Simply connect UI elements <br>
-                 and choose your interactions and animations.</li>
-            <li>Interactions: Define subtle interactions, like <br>
-                 on click, while hovering, while pressing a <br>
-                  button, and more.</li>
-            <li>Mobile-optimized: Details like device frames <br>
-                 and momentum scrolling make your <br>
-                  prototypes feel like the real experience.</li> 
-        </ul>
-
-        <img src="medias/video1.gif" alt="video1">
-
-        <img src="medias/video2.gif" alt="video2">
-
-        <h2>Show, don’t tell your interaction vision</h2>
-        <p>Take the guesswork out of development by spelling <br>
-             out the interaction details you envision.</p>
-             <ul>
-                <li>Advanced transitions with Smart Animate: <br>
-                     Automagically animate similar objects and <br>
-                      create detailed transitions.</li>
-                <li>Dynamic overlays: Create multiple layers of <br>
-                     interactive content overlays.</li>
-                <li>Animated GIFs: Use GIFs to represent <br>
-                     motion designs, video elements, and subtle <br>
-                      animations.</li> 
-            </ul>
-
-         <h2>"We run a really fast design process. We’re <br>
-             constantly building, testing, and iterating. <br>
-             Being able to pull together a prototype in <br>
-             Figma so quickly and easily is massive for us."</h2>
-             <p>Beth Horne, Senior User Researcher at Bulb</p>
-
-             <h2>Do it all in one single tool</h2>
-             <p>No more jumping between tools. Design, <br>
-                 prototype, share, and collect feedback all in Figma.</p>
-             <ul>
-                <li>All-in-one platform: Toggle between your <br>
-                     design file and live prototype. Design edits <br>
-                      appear instantly in your prototype.</li>
-                <li>Shareable prototype: Share a link to your <br>
-                     prototype. View it anywhere with Internet.</li>
-                <li>Embedded commenting: Comment in a <br>
-                     prototype. They carry over into the design file <br>
-                     so nothing gets lost.</li> 
-            </ul>
-
-            <img src="medias/video3.gif" alt="video3">
+    </div>
 
 
-          <h2>Other ways to use Figma prototypes</h2>
-          <ul>
-            <li>Observe a test subject in <br>
-               research sessions</li>
-            <li>Create presentation slides to <br>
-               pitch your work</li>
-            <li>Interact with live prototypes in <br>
-               Notion or Dropbox</li>
-            <li>Integrate with third-party <br>
-               prototyping tools</li>
-             
-        </ul>
-        <h2>See how Figma can help you design from start to finish</h2>
 
-        <img src="medias/image_2.png" alt="image2">
-        <h3>Design</h3>
-        <img src="medias/image_3.png" alt="image3">
-        <h3>Design systems</h3>
-        <img src="medias/image_4.png" alt="image4">
-        <h3>Collaboration</h3>
+  <div id="Bloc2">
 
-        <h2>Figma</h2>
+  <h2> Create prototypes that feel  
+    like the real experience</h2>
+  <p>Turn your static design files into an interactive experience—no coding required.</p>
+  <ul>
+    <li><strong>Intuitive build:</strong> Simply connect UI elements 
+      and choose your interactions and animations.</li>
+    <li><strong>Interactions: Define subtle interactions, like 
+      on click, while hovering, while </strong>pressing a 
+      button, and more.</li>
+    <li><strong>Mobile-optimized:</strong> Details like device frames 
+      and momentum scrolling make your 
+      prototypes feel like the real experience.</li>
+  </ul>
 
-        <p>Twitter, YouTube, Instagram, Facebook</p>
+  <img src="medias/video1.gif" alt="video1">
+</div>
 
-        <p> <strong>Use Case</strong> <br>
-        UI design <br>
-        UX design <br>
-        Graphic design<br>
-        Wireframing <br>
-        Diagramming <br>
-        Brainstorming <br>
-        Templates <br>
-        Remote design</p>
+<div>
+  <img src="medias/video2.gif" alt="video2">
 
-        <p> <strong>Explore</strong> <br>
-        Design features <br>
-        Prototyping features <br>
-        Design systems features <br>
-        Collaboration features <br>
-        FigJam <br>
-        Pricing <br>
-        Figma Organization <br>
-        Students and educators <br>
-        Customers <br>
-        Security <br>
-        Integration <br>
-        Contact</p>
+  <h2>Show, don’t tell your interaction vision</h2>
+  <p>Take the guesswork out of development by spelling 
+    out the interaction details you envision.</p>
+  <ul>
+    <li>Advanced transitions with Smart Animate: 
+      Automagically animate similar objects and 
+      create detailed transitions.</li>
+    <li>Dynamic overlays: Create multiple layers of 
+      interactive content overlays.</li>
+    <li>Animated GIFs: Use GIFs to represent 
+      motion designs, video elements, and subtle 
+      animations.</li>
+  </ul>
+</div>
+<div class="row col-10">
+  <h2>"We run a really fast design process. We’re 
+    constantly building, testing, and iterating. 
+    Being able to pull together a prototype in 
+    Figma so quickly and easily is massive for us."</h2>
+  <p>Beth Horne, Senior User Researcher at Bulb</p>
+</div>
+  <h2>Do it all in one single tool</h2>
+  <p>No more jumping between tools. Design, 
+    prototype, share, and collect feedback all in Figma.</p>
+  <ul>
+    <li>All-in-one platform: Toggle between your 
+      design file and live prototype. Design edits 
+      appear instantly in your prototype.</li>
+    <li>Shareable prototype: Share a link to your 
+      prototype. View it anywhere with Internet.</li>
+    <li>Embedded commenting: Comment in a 
+      prototype. They carry over into the design file 
+      so nothing gets lost.</li>
+  </ul>
 
-        <p> <strong>Resources</strong> <br>
-          Blog <br>
-          Best practices <br>
-          Support <br>
-          Developers <br>
-          Learn design <br>
-          Downloads <br>
-          What's new <br>
-          Releases <br>
-          Careers <br>
-          About us <br>
-          Agency partners <br>
-          Privacy <br>
-          Status</p>
+  <img src="medias/video3.gif" alt="video3">
 
-          <p> <strong>Compare</strong> <br>
-            Sketch <br>
-            Adobe XD <br>
-            Invision Studio <br>
-            Framer <br>
-            Design on Windows </p>
 
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <h2>Other ways to use Figma prototypes</h2>
+  <ul>
+    <li>Observe a test subject in 
+      research sessions</li>
+    <li>Create presentation slides to 
+      pitch your work</li>
+    <li>Interact with live prototypes in 
+      Notion or Dropbox</li>
+    <li>Integrate with third-party 
+      prototyping tools</li>
+
+  </ul>
+  <h2>See how Figma can help you design from start to finish</h2>
+
+  <img src="medias/image_2.png" alt="image2" class="Mini">
+  <h3>Design</h3>
+  <img src="medias/image_3.png" alt="image3" class="Mini">
+  <h3>Design systems</h3>
+  <img src="medias/image_4.png" alt="image4" class="Mini">
+  <h3>Collaboration</h3>
+
+  <h2>Figma</h2>
+
+  <p>Twitter, YouTube, Instagram, Facebook</p>
+
+  <p> <strong>Use Case</strong> 
+    UI design 
+    UX design 
+    Graphic design
+    Wireframing 
+    Diagramming 
+    Brainstorming 
+    Templates 
+    Remote design</p>
+
+  <p> <strong>Explore</strong> 
+    Design features 
+    Prototyping features 
+    Design systems features 
+    Collaboration features 
+    FigJam 
+    Pricing 
+    Figma Organization 
+    Students and educators 
+    Customers 
+    Security 
+    Integration 
+    Contact</p>
+
+  <p> <strong>Resources</strong> 
+    Blog 
+    Best practices 
+    Support 
+    Developers 
+    Learn design 
+    Downloads 
+    What's new 
+    Releases 
+    Careers 
+    About us 
+    Agency partners 
+    Privacy 
+    Status</p>
+
+  <p> <strong>Compare</strong> 
+    Sketch 
+    Adobe XD 
+    Invision Studio 
+    Framer 
+    Design on Windows </p>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
